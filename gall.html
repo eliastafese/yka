@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="am">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5 ሴክሽን የፎቶ ስላይደር ድረ-ገጽ</title>
+    <link rel="stylesheet" href="gall.css">
+    
+</head>
+<body>
+
+    <!-- የዳሰሳ አሞሌ (Navigation) -->
+    <nav>
+        <ul>
+            <li><a href="index.html">🏠 የካ ቅ/ጽ/ቤት</a></li>
+            <li><a href="#home">የአስተዳደርና ፋይናስ </a></li>
+            <li><a href="#about">የአደጋ ምላሽ</a></li>
+            <li><a href="#services">የቅ/ሕ አንፑላንስ</a></li>
+            <li><a href="#portfolio">የአደጋ ቅነሳ</a></li>
+            <li><a href="#contact">የአስቸኳይ ጊዜ እርዳታ</a></li>
+        </ul>
+    </nav>
+
+    <!-- ሴክሽን 1: መነሻ -->
+    <section id="home">
+        <h1>እንኳን በደህና መጡ የአስተዳደርና ፋይናስ ሰራ ከፍል</h1>
+        <p>በሳምነቱ የተከናወኑ መርሃ-ግብሮቸ ምስል ማሳያ።</p>
+        <div class="slider-container">
+            <button class="prev" onclick="moveSlide('home', -1)">&#10094;</button>
+            <div class="slider" id="home-slider">
+                <!-- የራስህን ፎቶ ሊንኮች እዚህ መተካት ትችላለህ -->
+                <img class="slide-img" src="img/com- 12.jpg" alt="Home 1">
+                <img class="slide-img" src="img/com-8.png" alt="Home 2">
+                <img class="slide-img" src="img/com-9.png" alt="Home 3">
+                <img class="slide-img" src="img/com-11.png" alt="Home 3">
+            </div>
+            <button class="next" onclick="moveSlide('home', 1)">&#10095;</button>
+        </div>
+    </section>
+
+    <!-- ሴክሽን 2: ስለ እኛ -->
+    <section id="about">
+        <h1>እንኳን በደህና መጡ የአደጋ ምላሽ ስራ ክፍል</h1>
+        <p>በሳምነቱ የተከናወኑ መርሃ-ግብሮቸ ምስል ማሳያ።</p>
+        <div class="slider-container">
+            <button class="prev" onclick="moveSlide('about', -1)">&#10094;</button>
+            <div class="slider" id="about-slider">
+                <img class="slide-img" src="img/photo-5.png" alt="About 1">
+                <img class="slide-img" src="img/photo-9.png" alt="About 2">
+                <img class="slide-img" src="img/eli 4.jpg" alt="About 3">
+                <img class="slide-img" src="img/eli 15.jpg" alt="About 3">
+
+            </div>
+            <button class="next" onclick="moveSlide('about', 1)">&#10095;</button>
+        </div>
+    </section>
+
+    <!-- ሴክሽን 3: አገልግሎቶች -->
+    <section id="services">
+        <h1>እንኳን በደህና መጡ የቅድመ ሕክምና አንፑላንስ አገልግሎት ሰራ ክፍል</h1>
+        <p>በሳምነቱ የተከናወኑ መርሃ-ግብሮቸ ምስል ማሳያ።</p>
+        <div class="slider-container">
+            <button class="prev" onclick="moveSlide('services', -1)">&#10094;</button>
+            <div class="slider" id="services-slider">
+                <img class="slide-img" src="img/photo-1.png" alt="Service 1">
+                <img class="slide-img" src="img/work- 1.jpg" alt="Service 2">
+                <img class="slide-img" src="img/work- 2.jpg" alt="Service 3">
+                <img class="slide-img" src="img/work- 6.jpg" alt="Service 3">
+                <img class="slide-img" src="img/work- 7.jpg" alt="Service 3">
+
+            </div>
+            <button class="next" onclick="moveSlide('services', 1)">&#10095;</button>
+        </div>
+    </section>
+
+    <!-- ሴክሽን 4: ስራዎች -->
+    <section id="portfolio">
+        <h1>እንኳን በደህና መጡ የአደጋ ቅነሳ ስራ ክፍል</h1>
+        <p>በሳምነቱ የተከናወኑ መርሃ-ግብሮቸ ምስል ማሳያ።</p>
+        <div class="slider-container">
+            <button class="prev" onclick="moveSlide('portfolio', -1)">&#10094;</button>
+            <div class="slider" id="portfolio-slider">
+                <img class="slide-img" src="img/photo-3.png" alt="Portfolio 1">
+                <img class="slide-img" src="img/eli 4.jpg" alt="Portfolio 1">
+                <img class="slide-img" src="img/eli 21.jpg" alt="Portfolio 1">
+                <img class="slide-img" src="img/eli 5.jpg" alt="Portfolio 2">
+                <img class="slide-img" src="img/eli 6.jpg" alt="Portfolio 3">
+            </div>
+            <button class="next" onclick="moveSlide('portfolio', 1)">&#10095;</button>
+        </div>
+    </section>
+
+    <!-- ሴክሽን 5: አድራሻ -->
+    <section id="contact">
+        <h1>እንኳን በደህና መጡ የአስቸኳይ ጊዜ እርዳታ የሥራ ክፍል</h1>
+        <p>በሳምነቱ የተከናወኑ መርሃ-ግብሮቸ ምስል ማሳያ።</p>
+        <div class="slider-container">
+            <button class="prev" onclick="moveSlide('contact', -1)">&#10094;</button>
+            <div class="slider" id="contact-slider">
+                <img class="slide-img" src="img/photo-4.png" alt="Contact 1">
+                <img class="slide-img" src="img/ofice 1.png" alt="Contact 1">
+                <img class="slide-img" src="img/eli 8.jpg" alt="Contact 2">
+                <img class="slide-img" src="img/eli 9.jpg" alt="Contact 3">
+            </div>
+            <button class="next" onclick="moveSlide('contact', 1)">&#10095;</button>
+        </div>
+    </section>
+
+    <!-- ፉተር -->
+    <footer>
+        <p>&copy; 2026 <a href="https://eliastafese.github.io/social/">መተግበሪያ</a> ለመፍትሔመብቱ በሕግ የተጠበቀ ነው።</p>
+    </footer>
+
+    <script src="gall.js"></script>
+
+</body>
+</html>
